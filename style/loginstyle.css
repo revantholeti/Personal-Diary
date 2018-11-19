@@ -1,0 +1,66 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+@font-face {
+    font-family: 'Gustisans-Regular';
+    src: url('GearsOfPeace.woff');
+}
+body{
+    background-size: 100%;
+    font-family: 'Gustisans-Regular';
+    background-image: url('../images/diary_1.jpg');
+    background-repeat: round;
+}
+.container-body {
+	margin-top: 15%;
+}
+#form_login{
+    background-color:rgb(204, 102, 0,0.4);
+    margin-top: 20px;
+	position: absolute;
+    margin: auto;
+    left:58%;
+	width: 35%;
+	border-radius: 5px;
+}
+form{
+    margin:auto;
+    padding:30px;
+}
+h2{
+    font-family: 'Gustisans-Regular';
+    /*font-weight: bold;*/
+    font-size: 30px;
+}
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+	padding: 1%;
+	width: 60%;
+	margin: 15px 0 15px 0;
+}
+
+form input[type="submit"] {
+	padding: 7px;
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+    background-color: #ff8800;
+    cursor: pointer;
+}
+
+button{
+    padding:14px;
+	border: 0;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #ff8800;
+}
+a{
+    color:white;
+}
+a:hover{
+    color:white;
+    text-decoration: none;
+}

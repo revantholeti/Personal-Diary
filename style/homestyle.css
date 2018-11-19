@@ -1,0 +1,123 @@
+body {
+    font-family: "Lato", sans-serif;
+    height: 100%;
+}
+
+@font-face {
+    font-family: 'Gustisans-Regular';
+    src: url('Pink_Blue.woff');
+}
+.main {
+    margin-left: 220px; /* Same as the width of the sidenav */
+    height: 100%;
+}
+#show_diary{
+    margin-top:20px;
+    font-size: 20px;
+    margin-left:40px;
+    width:80%;
+    display: inline-block;
+    height:60%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+#show_diary ul{
+    height:10%;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+#show_diary li{
+    color: #4d4e53;
+    border:1px solid;
+    border-bottom-width:0.5px;
+    padding:8px;
+    padding-left:45px;
+    list-style: none;
+    position:relative;
+    /* left:-50px; */
+    width:100%;
+
+}
+#show_diary a{
+    color: #4d4e53;
+    text-decoration:none;
+    cursor:pointer;
+} 
+
+textarea{
+    font-size: 20px;
+}
+
+#date{
+    padding:20px;
+    margin-right: 20px;
+    border:1px solid black;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#present_date{
+    width:100%;
+}
+
+#date_label{
+    margin-right:15px;
+}
+
+#uploaded_image{
+    border-radius: 5px;
+    width:290px;
+    height:290px;
+}
+
+#image_div{
+    border:1px solid black;
+    height:290px;
+    width:290px;
+    margin-top:20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 3px #888888;
+}
+
+#submit_div input[type="submit"] {
+	padding: 7px;
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+    background-color: #ff8800;
+    cursor: pointer;
+    margin-top:10px;
+    width:100%;
+    color:black;
+}
+
+#submit_div{
+    margin-right:20px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+#image_file_button{
+    padding: 7px;
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+    background-color: #ff8800;
+    cursor: pointer;
+    margin-right:20px;
+}
+
+#image_file{
+    cursor:pointer;
+}
+
+span{
+    color:red;
+}
+
+
+

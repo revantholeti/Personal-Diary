@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Gustisans-Regular';
+    src: url('GearsOfPeace.woff');
+}
+html,body{
+    height:100%;
+}
+.main{
+    height:100%;
+    /*  */
+    background-image: url('../images/old_paper.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+  opacity: 0.5;
+    filter: alpha(opacity=50);
+    
+}
+
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(255, 255, 255,0.6); /* Black w/opacity/see-through */
+    font-family: 'Gustisans-Regular';
+    color: black;
+    font-weight: bold;
+    border: 0.5px dashed #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 4px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  h2{
+      text-align: center;
+      text-decoration: underline;
+  }
+  ol{
+      text-align: center;
+      list-style-position: inside;
+      font-size: 20px;
+  }
+
+  img{
+      width:60%;
+      border-radius: 50%;
+      margin-left:13px;
+  }
+
+  .row{
+      text-align: center;
+}
+
+.col-sm-4:not(:last-child) {
+	border-right: 1px solid #ccc;
+}
+#phone_contact,#email_contact{
+    margin-top:10px;
+}
+
+#num{
+    margin-left:10px;
+}
+#email{
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+#email_label{
+    font-size:25px;
+}
+input{
+    width:50%;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+textarea{
+    width:50%;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+input[type='submit']{
+    border-radius: 5px;
+    border:none;
+    background-color:#ff8800;
+    text-transform: lowercase;
+    font-size: 20px;
+}
+input[type='email']{
+    font-family: sans-serif;
+}

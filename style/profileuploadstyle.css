@@ -1,0 +1,116 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.main {
+    margin-left: 220px; /* Same as the width of the sidenav */
+    height: 100%;
+}
+
+#image_div{
+    border:1px solid black;
+    width:290px;
+    height:290px;
+    margin-top:20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px 3px #888888;
+}
+
+#image_file_button{
+    padding: 7px;
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+    background-color: #ff8800;
+    cursor: pointer;
+    width:20%;
+    margin-top:20px;
+    margin-left:25px;
+}
+
+#quote_and_textarea{
+    margin-top:20px;
+    margin-left:20px;
+}
+
+label{
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+textarea{
+    margin-top:10px;
+    width:100%;
+    resize: none;
+}
+#second{
+    width:95%;
+}
+#submit_div{
+    margin-bottom:60px;
+}
+#submit_div input[type="submit"] {
+	padding: 7px;
+	border: 0; 
+	border-radius: 5px;
+	color: #fff;
+    background-color: #ff8800;
+    cursor: pointer;
+    width:150px;
+    font-size: 20px;
+    font-weight: bold;
+    float:right;
+    margin-right:10%;
+    margin-top:20px;
+}
+
+#uploaded_image{
+    width:290px;
+    height:290px;
+    border-radius: 5px;
+    margin-left:-15px;
+}
+
+#row_id{
+    margin-left:10px;
+    width:99%;
+}
+
+#settings{
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:20px;
+    margin-bottom:20px;
+    
+}
+
+#left{
+    border-right:1px solid black;
+    padding-left:10%;
+}
+#right{
+    padding-left:10%;
+}
+
+.row input[type="submit"] {
+	padding: 7px;
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+    background-color: #ff8800;
+    cursor: pointer;
+    float:left;
+    width:100px;
+}
+
+input[type="text"],
+input[type="password"] {
+	padding: 1%;
+	width: 60%;
+    margin: 15px 0 15px 0;
+    border-radius: 5px;
+    border:1px solid black;
+    font-size: 17px;
+}
+
