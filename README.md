@@ -23,3 +23,6 @@ This web application helps users to memorize their present days in future. User 
 6. Go to _**import**_ options in the newly created database and add the _**Diary.sql**_ file from the downloaded repository.
 7. Make sure the server is running.
 8. Open the browser and go to _**localhost/Diary**_.
+
+# Desigining and paper work
+![diary preview](https://user-images.githubusercontent.com/23103758/48698129-51be7880-ec0c-11e8-8c45-c31d04143404.png)
